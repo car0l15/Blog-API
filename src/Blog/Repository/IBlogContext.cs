@@ -4,7 +4,7 @@ using projeto_final.Models;
 namespace projeto_final.Repository
 
 {
-    public interface ITryBlogContext
+    public interface IBlogContext
     {
         public DbSet<Post> Posts { get; set; }
         public DbSet<User> Users { get; set; }

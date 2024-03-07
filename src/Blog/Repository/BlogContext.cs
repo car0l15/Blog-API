@@ -4,11 +4,11 @@ using System;
 
 namespace projeto_final.Repository;
 
-public class TryBlogContext : DbContext, ITryBlogContext
+public class BlogContext : DbContext, BlogContext
 {
     public DbSet<Post> Posts { get; set; }
     public DbSet<User> Users { get; set; }
-    public TryBlogContext(DbContextOptions<TryBlogContext> options) : base(options) { }
+    public BlogContext(DbContextOptions<BlogContext> options) : base(options) { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

@@ -2,7 +2,7 @@ using projeto_final.Models;
 
 namespace projeto_final.Repository
 {
-    public interface ITryBlogRepository
+    public interface IBlogRepository
     {
         public IEnumerable<User> GetAllUsers();
         public User GetUserByEmail(string email);
