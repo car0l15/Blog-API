@@ -28,7 +28,7 @@ criar postagens novas, alterar postagens antigas, buscar postagens, etc.
 <hr>
 
 <details><summary><h2>Rotas</h2></summary>
-  <img alt="Rotas da API no Swagger" src="./Images/Swagger.png"/>
+  <img alt="Rotas da API no Swagger" src="./images/Swagger.png"/>
   <ul>
    <li>As rotas <code>login</code> e <code>signup</code> fazem login e cadastro de usuários novos. Quando a requisição é bem sucedida retorna 
      um <strong>token</strong></li>
