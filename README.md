@@ -15,8 +15,9 @@ Como a aplicação utiliza um banco de dados local, será necessário executar u
 
 1. Execute `docker-compose up -d` para iniciar o container do Banco de Dados.
 2. As informações necessárias para se conectar ao banco estão no arquivo `docker-compose.yaml`.
-3. Após se conectar ao SQL Server, execute a query `Blog_Query.sql` na sua ferramenta de banco de dados.
-4. Navegue até a pasta `src/Blog` e execute o comando `dotnet restore`, seguido de `dotnet run`.
+3. A senha para a conexão com o DB é Senha123$, o server é 127.0.0.1 e o username é SA
+4. Após se conectar ao SQL Server, execute a query `Blog_Query.sql` na sua ferramenta de banco de dados.
+5. Navegue até a pasta `src/Blog` e execute o comando `dotnet restore`, seguido de `dotnet run`.
 
 ## Rotas
 
